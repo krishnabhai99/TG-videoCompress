@@ -9,23 +9,23 @@
     "env": {
         "APP_ID": {
             "description": "You api id get it from my.telegram.org or @apiScrapperRoBot",
-            "value": ""
+            "value": "26387127"
         },
         "API_HASH": {
             "description": "You api hash get it from my.telegram.org or @apiScrapperRoBot.",
-            "value": ""
+            "value": "19718ab7acd97d0f71ada2807ddfe47a"
         },
         "BOT_TOKEN": {
             "description": "Make a bot from @BotFather and enter it's api token",
-            "value": ""
+            "value": "7182645741:AAGRG6VcimV7NNx1tCFoLbdwtZCmtxm44Yc"
         },
         "OWNER": {
             "description": "Put ids of user which can access the bot e.g 123456789",
-            "value": ""
+            "value": "5446367898"
         },
         "THUMBNAIL": {
             "description": "Put Link of any picture.",
-            "value": "https://telegra.ph/file/c1cb2ae0417b5492f8785.jpg",
+            "value": "https://graph.org/file/280e9cf6d310bb4598f0d-96e0682c2c25b43583.jpg",
             "required": false
         }
     }
