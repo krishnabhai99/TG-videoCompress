@@ -16,13 +16,13 @@
 from decouple import config
 
 try:
-    APP_ID = config("APP_ID", cast=int)
-    API_HASH = config("API_HASH")
-    BOT_TOKEN = config("BOT_TOKEN")
-    DEV = 1287276743
-    OWNER = config("OWNER")
+    APP_ID = config("26387127", cast=int)
+    API_HASH = config("19718ab7acd97d0f71ada2807ddfe47a")
+    BOT_TOKEN = config("7182645741:AAGRG6VcimV7NNx1tCFoLbdwtZCmtxm44Yc")
+    DEV = 5446367898
+    OWNER = config("5446367898")
     ffmpegcode = ["-preset faster -c:v libx265 -s 854x480 -x265-params 'bframes=8:psy-rd=1:ref=3:aq-mode=3:aq-strength=0.8:deblock=1,1' -metadata 'title=Encoded By AnshuSharma (https://github.com/Anshusharma75/TG-videoCompress)' -pix_fmt yuv420p -crf 30 -c:a libopus -b:a 32k -c:s copy -map 0 -ac 2 -ab 32k -vbr 2 -level 3.1 -threads 1"]
-    THUMB = config("THUMBNAIL")
+    THUMB = config("https://graph.org/file/280e9cf6d310bb4598f0d-96e0682c2c25b43583.jpg")
 except Exception as e:
     LOGS.info("Environment vars Missing")
     LOGS.info("something went wrong")
